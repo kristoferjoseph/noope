@@ -1,0 +1,28 @@
+{
+  "name": "noope",
+  "version": "1.0.0",
+  "description": "Useful no op that logs a stack when called.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristoferjoseph/noope.git"
+  },
+  "keywords": [
+    "noop",
+    "no-op",
+    "trace"
+  ],
+  "author": "@dam",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kristoferjoseph/noope/issues"
+  },
+  "homepage": "https://github.com/kristoferjoseph/noope#readme",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}
